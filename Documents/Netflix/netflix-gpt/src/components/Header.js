@@ -1,0 +1,17 @@
+import React from 'react'
+
+const Header = () => {
+  return (
+    <div className='absolute px-8 py-2 bg-gradient-to-b from-black z-10'>
+        <img 
+        className='w-44'
+         alt='logo'
+        // src='data:image/png;base64,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' 
+        src='https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png'
+        />
+        
+    </div>
+  )
+}
+
+export default Header
